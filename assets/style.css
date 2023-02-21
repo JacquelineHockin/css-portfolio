@@ -2,11 +2,10 @@
     box-sizing: border-box;
   }
   
-  /* brand color palette */
+  /* colors */
   :root {
-    --primary: rgba(68, 88, 119, 1);
-    --secondary: rgba(146, 204, 206, 1);
-    --tertiary: rgba(49, 52, 61, 1);
+    --primary:rgb(199, 202, 193);
+    --secondary: rgba(49, 52, 61, 1);
     --dark: rgba(28, 29, 33, 1);
     --light: rgba(238, 238, 247, 1);
   }
@@ -40,8 +39,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--tertiary);
-    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+    /* background-color: var(--secondary); */
+    /* box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4); */
   }
   
   header h1 {
@@ -87,12 +86,13 @@
   }
   
   .my-banner {
-    background: rgb(68, 88, 120);
-    background-image: url("./images/ha_img3.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    /* background: rgb(68, 120, 83); */
+    background-image: url("./images/ha_img3.png"); 
+    /* linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%); */
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
-    min-height: 30vh;
+    min-height: 105vh;
     color: var(--light);
     padding: 2% 6%;
     display: flex;
@@ -121,7 +121,7 @@
     margin-right: auto;
   }
   
-  .pg-txt1 {
+  .pg-txt {
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
@@ -129,23 +129,35 @@
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
+    color: var(--secondary);
+  }
+
+  .pg-txt1 > h2 {
+    flex: 0 0 20%;
+    text-align: left;
+    padding-left: 15px;
+    border-left: 4px solid var(--secondary);
+    font-size: 4vw;
+    line-height: 1.1;
   }
   
   .pg-txt2 > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid var(--primary);
+    border-right: 4px solid var(--secondary);
     font-size: 4vw;
     line-height: 1.1;
   }
   
   .pg-txt1 > div {
     flex: 0 0 77%;
+    color: var(--secondary);
   }
   
   .pg-txt2 p {
     margin-bottom: 20px;
+    color: var(--secondary);
   }
   
   .flex-container {
@@ -200,7 +212,7 @@
   }
   
   .my-contact a {
-    color: var(--tertiary);
+    color: var(--secondary);
     padding: 5px;
     text-decoration: none;
     font-size: 1.3rem;
