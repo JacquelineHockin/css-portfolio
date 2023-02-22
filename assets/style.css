@@ -107,12 +107,12 @@
   
   .my-banner h2 {
     background-color: var(--secondary);
-    color: var(--tertiary);
-    margin: 0;
-    padding: 5px 10px;
     font-size: 2.3rem;
     line-height: 1.2;
     display: inline;
+    margin-right: -70px;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
   }
   
   .pg-wrap {
@@ -168,13 +168,14 @@
   
   .flex-item {
     border: 5px solid var(--secondary);
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
     color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: right;
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
@@ -184,7 +185,7 @@
     font-size: 0.9rem;
   }
   
-  /* feature first portfolio item */
+  /* projects */
   .flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
@@ -195,7 +196,8 @@
   }
   
   .flex-item div {
-    background-color: var(--secondary);
+    color: white;
+    background-color: var(--primary);
     padding: 8px 10px;
   }
   
@@ -231,7 +233,7 @@
     color: var(--secondary);
   }
   
-  /* portfolio project images */
+  /* repo images */
   .aloha {
     background-image: url("../assets/images/homepage.png");
   }
@@ -241,10 +243,10 @@
   }
   
   .doges-dad-jokes {
-    background-image: url("../assets/images/ScreenshotLocalStorage.png");
+    background-image: url("../assets/images/venmoDoge.webp");
   }
   
-  /* end portfolio project images */
+  /* end of images */
   
   @media screen and (max-width: 980px) {
     header {
