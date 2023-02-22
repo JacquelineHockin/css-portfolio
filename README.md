@@ -28,6 +28,8 @@ An employer is presented with a responsive layout that allows them to easily nav
 GitHub repository URL: 
 https://github.com/JacquelineHockin/css-portfolio
 
+Deployed app URL: https://jacquelinehockin.github.io/css-portfolio/
+
 
 ## Contributors 
 - Jacqueline Cashman
